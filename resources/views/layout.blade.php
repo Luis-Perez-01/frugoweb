@@ -15,27 +15,27 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top bg-white">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="{{asset('assets/logo.png')}}" class="img-fluid mx-auto pt-3" alt="..." style="padding-left: 6rem;" /></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img src="{{asset('assets/logo.png')}}" class="img-fluid mx-auto pt-3" alt="..." style="padding-left: 6rem;" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
-                    <li class="nav-item dropdown px-4">
+                    <li class="nav-item dropdown px-3">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <strong>Acerca <br> de Frugo</strong>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Historia</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/historia') }}">Historia</a></li>
                             <li><a class="dropdown-item" href="#">Presencia</a></li>
                             <li><a class="dropdown-item" href="#">Nuestro Equipo</a></li>
                             <li><a class="dropdown-item" href="#">Nuestra Filosofía</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item px-4">
+                    <li class="nav-item px-3">
                         <a class="nav-link active" aria-current="page" href="#"><strong>Nuestros <br> Productos</strong></a>
                     </li>
-                    <li class="nav-item dropdown px-4">
+                    <li class="nav-item dropdown px-3">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <strong>La calidad <br> nos distingue</strong>
                         </a>
@@ -44,7 +44,7 @@
                             <li><a class="dropdown-item" href="#">Agrícultura</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item px-5">
+                    <li class="nav-item px-3">
                     </li>
 
                 </ul>
