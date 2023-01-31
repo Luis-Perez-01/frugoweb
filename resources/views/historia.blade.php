@@ -48,6 +48,26 @@
         </p>
     </div>
 </section>
+<img src="{{asset('assets/bg_nuestra.jpg')}}" alt="" class="" style="min-height: 40vh; max-width: 100%; object-fit: contain;">
+<section>
+    <div class="container w-50 py-3">
+        <p class="pt-5">
+            Nuestro sistema de gestión fortalece la protección del medio ambiente y amplía la seguridad laboral de los empleados, manteniendo siempre una buena atmósfera de trabajo.
+        <p class="py-5" style="color: #3FAE29;">
+            <strong>
+                PORQUE PARA FRUGO, EL CUIDADO AMBIENTAL Y EL BIENESTAR DE SUS TRABAJADORES SON PRIORIDAD.
+            </strong>
+        </p>
+        Para mí es muy satisfactorio formar parte de esta empresa porque aquí se reconoce la importancia que tienen la inocuidad y la calidad en la producción de alimentos. Desde el campo hasta la entrega del producto ya terminado se controlan todos los aspectos necesarios para cumplir con las especificaciones de nuestros clientes. Los productos Frugo son sinónimo de alimentos sanos, seguros y sabrosos.
+        <p class="pt-3" style="color: #3FAE29;">
+            Ing. Miguel S.
+        </p>
+        <p>
+            Gerencia de Gestión Integral
+        </p>
+        </p>
+    </div>
+</section>
 <img src="{{asset('assets/bg_expectativas.jpg')}}" alt="" class="" style="min-height: 40vh; max-width: 100%; background-size:cover; background-attachment: fixed;">
 <section>
     <div class="container w-50 py-3">
