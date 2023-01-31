@@ -1,5 +1,9 @@
 @extends('layout')
 
+<title>
+    @yield('title', 'Acerca de Frugo | Historia')
+</title>
+
 @section('content')
 <h1 class="position-absolute bottom-50 end-50 text-uppercase text-white p-2"><strong>Una trayectoria <br> de excelencia</strong></h1>
 <img src="{{asset('assets/bg_acercade_sinblur.jpg')}}" alt="" class="" style="min-height: 40vh; max-width: 100%; object-fit: contain;">
