@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{asset('css/layoutStyle.css')}}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,21 +28,21 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ url('/historia') }}">Historia</a></li>
-                            <li><a class="dropdown-item" href="#">Presencia</a></li>
-                            <li><a class="dropdown-item" href="#">Nuestro Equipo</a></li>
-                            <li><a class="dropdown-item" href="#">Nuestra Filosofía</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/historia#presencia') }}">Presencia</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/historia#equipo') }}">Nuestro Equipo</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/historia#filosofia') }}">Nuestra Filosofía</a></li>
                         </ul>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link active" aria-current="page" href="#"><strong>Nuestros <br> Productos</strong></a>
+                        <a class="nav-link active" aria-current="page" href="{{ url('/productos') }}"><strong>Nuestros <br> Productos</strong></a>
                     </li>
                     <li class="nav-item dropdown px-3">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             <strong>La calidad <br> nos distingue</strong>
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Certificaciones</a></li>
-                            <li><a class="dropdown-item" href="#">Agrícultura</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/calidad') }}">Certificaciones</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/calidad#agricultura') }}">Agrícultura</a></li>
                         </ul>
                     </li>
                     <li class="nav-item px-3">
@@ -49,8 +50,8 @@
 
                 </ul>
                 <div class="btnNav">
-                    <a href="" class="text-center"><i class='bx bxs-group bx-sm'></i></a>
-                    <a href="" class="text-center"><i class='bx bx-envelope bx-sm'></i></a>
+                    <a href="{{ url('/unete') }}" class="text-center"><i class='bx bxs-group bx-sm'></i></a>
+                    <a href="{{ url('/contacto') }}" class="text-center"><i class='bx bx-envelope bx-sm'></i></a>
                 </div>
             </div>
         </div>
