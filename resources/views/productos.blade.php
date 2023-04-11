@@ -83,48 +83,6 @@
             <div class="col">
                 <div class="card border-0">
                     <div class="card-body text-center">
-                        <img src="{{asset('assets/tomate-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            jitomate en cubos</div>
-                    </div>
-                    <div class="title text-center">JITOMATE</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card border-0">
-                    <div class="card-body text-center">
-                        <img src="{{asset('assets/frambuesa1-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            Entera
-                            En trozos
-                        </div>
-                    </div>
-                    <div class="title text-center">FRAMBUESA</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card border-0">
-                    <div class="card-body text-center">
-                        <img src="{{asset('assets/mango-180x180.jpg')}}" alt="">
-                        <div class="text">En trozos</div>
-                    </div>
-                    <div class="title text-center">MANGO</div>
-                </div>
-            </div>
-        </div>
-        <div class="row p-5">
-            <div class="col">
-                <div class="card border-0">
-                    <div class="card-body text-center">
-                        <img src="{{asset('assets/fresas-180x180.jpg')}}" alt="">
-                        <div class="text">Entera</div>
-                    </div>
-                    <div class="title text-center">FRESA</div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card border-0">
-                    <div class="card-body text-center">
                         <img src="{{asset('assets/shutterstock_180005735-180x180.jpg')}}" alt="">
                         <div class="text">Floretes de brócoli
                             Tallos y floretes picados de brócoli
