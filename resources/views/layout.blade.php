@@ -42,7 +42,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ url('/calidad') }}">Certificaciones</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/calidad#agricultura') }}">Agrícultura</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/calidad#agricultura') }}">Agricultura</a></li>
                         </ul>
                     </li>
                     <li class="nav-item px-3">
