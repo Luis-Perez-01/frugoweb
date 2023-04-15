@@ -1,27 +1,37 @@
 <?php
 
+use App\Http\Middleware\LocaleMiddleware;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::redirect('/', '/es');
 
-Route::get('/historia', function () {
-    return view('historia');
-});
+Route::prefix('{locale}')
+    ->middleware([LocaleMiddleware::class])
+    ->group(function () {
 
-Route::get('/calidad', function () {
-    return view('calidad');
-});
+        Route::get('/', function () {
+            return view('welcome');
+        })->name('welcome');
 
-Route::get('/productos', function () {
-    return view('productos');
-});
+        Route::get('historia', function () {
+            return view('historia');
+        })->name('historia');
 
-Route::get('/unete', function () {
-    return view('unete');
-});
+        Route::get('calidad', function () {
+            return view('calidad');
+        })->name('calidad');
 
-Route::get('/contacto', function () {
-    return view('contacto');
-});
+        Route::get('productos', function () {
+            return view('productos');
+        })->name('productos');
+
+        Route::get('unete', function () {
+            return view('unete');
+        })->name('unete');
+
+        Route::get('contacto', function () {
+            return view('contacto');
+        })->name('contacto');
+
+    });

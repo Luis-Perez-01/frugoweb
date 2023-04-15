@@ -7,9 +7,7 @@
     </div>
     <div class="container" style="position: absolute; top: 45rem; left: 0; right: 0; margin: auto;">
         <div class="text-center">
-            <span style="color: #3FAE29; font-family: BlackJack; font-weight: 100; font-size: 40px;">Vive bien come
-                lo
-                mejor</span>
+            <span style="color: #3FAE29; font-family: BlackJack; font-weight: 100; font-size: 40px;">{{ __('welcome.welcomeMsg') }}</span>
             <img src="{{ asset('assets/scribble.png') }}" class="img-fluid mx-auto" alt="..." />
         </div>
     </div>
@@ -17,9 +15,7 @@
         <div class="container" style="position: absolute; top: 55rem; left: 0; right: 0; margin: auto;">
             <div class="row">
                 <div class="col-lg-6">
-                    <p class="lead">En Frugo nos distinguimos por seguir los más altos estándares de calidad, llevando a
-                        cabo de manera estricta los procesos de control de seguridad alimentaria e inocuidad con el fin
-                        de llevar a tu mesa los mejores productos.</p>
+                    <p class="lead">{{ __('welcome.description') }}</p>
                 </div>
                 <div class="col-lg-6 text-center">
                     <img src="{{ asset('assets/ka.png') }}" alt="" class="img-fluid mx-auto" style="width: 120px;">
