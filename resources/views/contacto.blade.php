@@ -6,16 +6,14 @@
 
 @section('content')
 <div class="container-fluid p-0">
-    <img src="{{asset('assets/bg_equipo.jpg')}}" class="img-fluid w-75" alt="..." />
-    <div class="container" style="position: absolute; top: 15rem; left: 0; right: 0; margin: auto; padding-left: 30%;">
-        <h1 class="text-white fw-bolder pb-5">QUEREMOS <br>
-            ESCUCHARTE</h1>
+    <img src="{{asset('assets/bg_escucharte.jpg')}}" class="img-fluid w-75"/>
+    <div class="container" style="position: absolute; top: 30rem; left: 0; right: 0; bottom: 10rem; margin: auto; padding-left: 20%; font-weight: 800;">
+        <h1 class="text-white fw-bolder pb-5">{{ __('contacto.title') }}<br>{{ __('contacto.title1') }}</h1>
         <div class="card border-0 rounded-0 shadow-sm">
             <div class="card-body p-3">
                 <div class="row">
                     <div class="col">
-                        <h3 class="p-2 fw-bolder" style="color: #3FAE29">
-                            VENTAS EU Y CANADÁ<br>
+                        <h3 class="p-2 fw-bolder" style="color: #3FAE29">{{ __('contacto.title2') }}<br>
                         </h3>
                         <p class="p-2">
                             Sun Harvest Foods Inc. <br> <br>
@@ -45,8 +43,7 @@
             <div class="col">
                 <div class="card border-0 rounded-0 shadow-sm">
                     <div class="card-body">
-                        <h3 class="p-2 fw-bolder" style="color: #3FAE29">
-                            OFICINAS GENERALES Y PLANTA<br>
+                        <h3 class="p-2 fw-bolder" style="color: #3FAE29">{{ __('contacto.title3') }}<br>
                         </h3>
                         <p class="p-2">
                             Productos Frugo S.A. de C.V. <br><br>
@@ -70,7 +67,7 @@
                 <div class="card border-0 rounded-0 shadow-sm">
                     <div class="card-body">
                         <h3 class="p-2 fw-bolder" style="color: #3FAE29">
-                            VENTAS MÉXICO Y RESTO DEL MUNDO<br>
+                            {{ __('contacto.title4') }}<br>
                         </h3>
                         <p class="p-2">
                             Frugalmex S. de R.L. <br><br>

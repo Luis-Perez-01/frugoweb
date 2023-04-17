@@ -13,36 +13,28 @@
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/brocoli-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            Floretes<br>
-                            Mezcla de tallo y floretes picados
-                            Floretes miniatura
-                            Micro floretes
-                            Tallos y floretes en trozos
-                            Tallos</div>
+                        <div class="text">{{ __('productos.brocoliText') }}</div>
                     </div>
-                    <div class="title text-center">BRÓCOLI</div>
+                    <div class="title text-center">{{ __('productos.brocoli') }}</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/apio2-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            En rebanadas <br>
-                            En cubos
+                        <div class="text">{{ __('productos.apioText') }}
                         </div>
                     </div>
-                    <div class="title text-center">APIO</div>
+                    <div class="title text-center">{{ __('productos.apio') }}</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/coliflor-180x180.jpg')}}" alt="">
-                        <div class="text">Floretes</div>
+                        <div class="text">{{ __('productos.coliflorText') }}</div>
                     </div>
-                    <div class="title text-center">COLIFLOR</div>
+                    <div class="title text-center">{{ __('productos.coliflor') }}</div>
                 </div>
             </div>
         </div>
@@ -51,31 +43,28 @@
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/esparrago4-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            En trozos <br>
-                            Puntas y trozos</div>
+                        <div class="text">{{ __('productos.esparragoText') }}</div>
                     </div>
-                    <div class="title text-center">ESPÁRAGO</div>
+                    <div class="title text-center">{{ __('productos.esparrago') }}</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/chile-180x180.jpg')}}" alt="">
-                        <div class="text">
-                            En cubos
+                        <div class="text">{{ __('productos.jalapenoText') }}
                         </div>
                     </div>
-                    <div class="title text-center">JALAPEÑO VERDE</div>
+                    <div class="title text-center">{{ __('productos.jalapeno') }}</div>
                 </div>
             </div>
             <div class="col">
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/pepino1-180x180.jpg')}}" alt="">
-                        <div class="text">En cubos</div>
+                        <div class="text">{{ __('productos.pepinoText') }}</div>
                     </div>
-                    <div class="title text-center">PEPINO</div>
+                    <div class="title text-center">{{ __('productos.pepino') }}</div>
                 </div>
             </div>
         </div>
@@ -84,14 +73,9 @@
                 <div class="card border-0">
                     <div class="card-body text-center">
                         <img src="{{asset('assets/shutterstock_180005735-180x180.jpg')}}" alt="">
-                        <div class="text">Floretes de brócoli
-                            Tallos y floretes picados de brócoli
-                            Apio en cubos
-                            Apio en rebanadas
-                            Pepino en cubos
-                        </div>
+                        <div class="text">{{ __('productos.organicosText') }}</div>
                     </div>
-                    <div class="title text-center">PRODUCTOS ORGÁNICOS</div>
+                    <div class="title text-center">{{ __('productos.organicos') }}</div>
                 </div>
             </div>
         </div>
